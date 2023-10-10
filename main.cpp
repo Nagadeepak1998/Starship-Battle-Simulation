@@ -1,5 +1,5 @@
-// Vikramadithya Kolasani
-// Banner ID: Y00871325
+// Nagadeepak
+// Banner ID: Y0000000
 
 #include <iostream>
 #include <cmath>
@@ -9,7 +9,7 @@
 // Constants
 const int MIN_LOCATION = -20;
 const int MAX_LOCATION = 20;
-const std::string BANNER_ID = "Y00871325";
+const std::string BANNER_ID = "Y0000000";
 
 bool isWithinArea(int shipLocation, int shipSize, int targetLocation) {
     return targetLocation >= (shipLocation - shipSize) && targetLocation <= (shipLocation + shipSize);
